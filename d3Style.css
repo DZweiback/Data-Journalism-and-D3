@@ -52,6 +52,13 @@
   border-radius: 4px;
 }
 
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 000;
+  top: 100%;
+  left: 0;
+}
+
 /* Mobile Rules */
 @media screen and (max-width: 530px) {
   .stateText {
